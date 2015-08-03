@@ -5,6 +5,8 @@
 " License:  OSI approved MIT license (see end of this file)
 " Created:  In the middle of the night
 " Modified: 2015 Aug 03
+" Fork:     Nick Morrott <knowledgejunkie@gmail.com>
+"           https://github.com/knowledgejunkie/vim-colors-solarized
 "
 " Usage "{{{
 "
