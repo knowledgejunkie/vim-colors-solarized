@@ -707,7 +707,8 @@ exe "hi! vimGroup"          .s:fmt_undb    .s:fg_blue   .s:bg_none
 hi! link diffAdded Statement
 hi! link diffLine Identifier
 "}}}
-" git & gitcommit highlighting "{{{
+" git, gitcommit and vim-gitgutter highlighting "{{{
+" ---------------------------------------------------------------------
 "git
 "exe "hi! gitDateHeader"
 "exe "hi! gitIdentityHeader"
@@ -756,6 +757,10 @@ hi! link gitcommitUnmergedArrow  gitcommitUnmergedFile
 "exe "hi! gitcommitArrow"
 "exe "hi! gitcommitOverflow"
 "exe "hi! gitcommitBlank"
+"vim-gitgutter highlighting
+exe "hi! lineAdded"         .s:fmt_bold .s:fg_green  .s:bg_base02
+exe "hi! lineModified"      .s:fmt_bold .s:fg_yellow .s:bg_base02
+exe "hi! lineRemoved"       .s:fmt_bold .s:fg_red    .s:bg_base02
 " }}}
 " html highlighting "{{{
 " ---------------------------------------------------------------------
